@@ -1,0 +1,33 @@
+[submodule "lib/tiny-json"]
+	path = lib/tiny-json
+	url = https://github.com/rafagafe/tiny-json
+[submodule "lib/json-maker"]
+	path = lib/json-maker
+	url = https://github.com/rafagafe/json-maker
+[submodule "lib/coreMQTT-Agent"]
+	path = lib/coreMQTT-Agent
+	url = https://github.com/FreeRTOS/coreMQTT-Agent
+[submodule "lib/coreMQTT"]
+	path = lib/coreMQTT
+	url = https://github.com/FreeRTOS/coreMQTT
+[submodule "lib/twinThingWizFi360"]
+	path = lib/twinThingWizFi360
+	url = https://github.com/jondurrant/twinThingWizFi360
+[submodule "lib/CMSIS-Driver"]
+	path = lib/CMSIS-Driver
+	url = https://github.com/ARM-software/CMSIS-Driver.git
+[submodule "lib/CMSIS-FreeRTOS"]
+	path = lib/CMSIS-FreeRTOS
+	url = https://github.com/ARM-software/CMSIS-FreeRTOS.git
+[submodule "lib/CMSIS_5"]
+	path = lib/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git
+[submodule "lib/IoT_Socket"]
+	path = lib/IoT_Socket
+	url = https://github.com/MDK-Packs/IoT_Socket.git
+[submodule "lib/RtosComponents"]
+	path = lib/RtosComponents
+	url = https://github.com/jondurrant/RtosComponents
+[submodule "lib/PicoLED"]
+	path = lib/PicoLED
+	url = https://github.com/ForsakenNGS/PicoLED
