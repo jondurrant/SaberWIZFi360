@@ -47,8 +47,8 @@
 
 
 #define RED_PAD  3
-#define GRN_PAD 11
-#define BLU_PAD 13
+#define GRN_PAD 13
+#define BLU_PAD 11
 #define LED_PAD 12
 
 void core1_entry() {
@@ -137,7 +137,7 @@ init_thread(void* pvParameters) {
 
 
 	WatchdogBlinkAgent watchdog(LED_PAD);
-	//watchdog.start(tskIDLE_PRIORITY+1);
+	watchdog.start(tskIDLE_PRIORITY+1);
 
 	MQTTRouterSaber mqttRouter;
 	SaberState state;
